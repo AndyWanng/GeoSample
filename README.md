@@ -1,2 +1,10 @@
 # GeoSample
-Repository for GeoSample, a Geometry-Guided Sampling Operator for Volumetric Segmentation
+
+
+This folder contains a clean GeoSample operator and the Consensus Field module.
+
+## Structure
+
+- `geosample/`: GeoSample operator + field head + consensus fusion.
+- `models/`: a compact 3D U-Net example using GeoSample blocks.
+- `examples/`: a minimal forward-pass script.
