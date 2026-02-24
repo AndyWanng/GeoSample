@@ -7,4 +7,3 @@ This folder contains a clean GeoSample operator and the Consensus Field module.
 
 - `geosample/`: GeoSample operator + field head + consensus fusion.
 - `models/`: a compact 3D U-Net example using GeoSample blocks.
-- `examples/`: a minimal forward-pass script.
