@@ -6,7 +6,7 @@ GeoSample is a drop-in local operator designed for encoder–decoder segmenters.
 Consensus Field performs **rotation-consistent fusion** of geometry fields across skip connections to reduce cross-scale geometric mismatch.
 
 
-## Key ideas (paper-aligned)
+## Key ideas 
 
 - **Unified stride 1 refinement and stride>1 downsampling** under one operator.
 - **Symmetric sampling** makes odd/even components explicit and stabilizes directional cues.
