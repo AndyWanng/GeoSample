@@ -58,7 +58,7 @@ class GeoFieldHead3D(nn.Module):
         if self.head.bias is None:
             return
 
-        nn.init.zeros_(self.head.weight)
+        # nn.init.zeros_(self.head.weight)
         nn.init.zeros_(self.head.bias)
         self.head.bias.data[0] = 1.0
 
