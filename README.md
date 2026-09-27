@@ -1,6 +1,9 @@
 # GeoSample
 
-Reference implementation of **GeoSample** (geometry-guided symmetric sampling operator) and **Consensus Field** for 3D volumetric segmentation.
+This is the official repository for paper **Steer the Sampling, Not the Kernel Grid: Geometry-Guided Sampling Operator for Volumetric Segmentation**.
+
+Paper link (MICCAI Open Access): [paper](https://papers.miccai.org/miccai-2026/paper/2940_paper.pdf)
+
 
 GeoSample is a drop-in local operator designed for encoder–decoder segmenters. It learns a voxel-wise geometric field (local 3D orientation + bounded step sizes) to **steer where features are sampled**, converts symmetric paired samples into compact **parity-separated differential cues** (gradient-/curvature-like tokens), and applies lightweight token gating + mixing.  
 Consensus Field performs **rotation-consistent fusion** of geometry fields across skip connections to reduce cross-scale geometric mismatch.
